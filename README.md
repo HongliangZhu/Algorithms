@@ -2,15 +2,18 @@ Computer Algorithms Implementation In C++
 ==============
 
 Quick sort
---------------
+------------
 **The most important point of quick sort is partition function.**
 
 
-*This will be Italic*
+Github setup issues
+-------------------
+**设置代理服务器goagent绕过GFW**
 
-**This will be Bold**
+在Git Shell中设置代理服务器地址：
+git config --global http.proxy 127.0.0.1:8087
 
-- This will be a list item
-- This will be a list item
+**解决Certificate error**
 
-    Add a indent and this will end up as code
+在Git Shell 中disable sslverify：
+git config --global http.sslverify false
