@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>I:\Studio\Algorithms\Algorithms.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>I:\Studio\Algorithms\quicksort.cpp</string>
+      <string>I:\Studio\Algorithms\quicksort.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>I:\Studio\Algorithms\binarySearch.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>I:\Studio\Algorithms\bintree_search.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlstr.h</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
