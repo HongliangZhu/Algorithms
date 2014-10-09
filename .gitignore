@@ -69,3 +69,10 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+Algorithms.suo
+*.sdf
+*.opensdf
+Algorithms.vcxproj.filters
+Algorithms.vcxproj.filters
+Algorithms.vcxproj.filters
+*.ipch

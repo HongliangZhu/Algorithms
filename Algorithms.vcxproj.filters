@@ -35,6 +35,12 @@
     <ClInclude Include="binarySearch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="bst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tree_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
