@@ -2,6 +2,7 @@
 //
 
 #include "quicksort.h"
+#include "binarytree.h"
 #include <iostream>
 #include <time.h>
 using namespace std;

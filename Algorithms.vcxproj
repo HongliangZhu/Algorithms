@@ -95,13 +95,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binarySearch.h" />
+    <ClInclude Include="binarytree.h" />
+    <ClInclude Include="CountingSort.h" />
+    <ClInclude Include="heap.h" />
+    <ClInclude Include="linkedlist.h" />
     <ClInclude Include="tree_defs.h" />
     <ClInclude Include="bintree_search.h" />
     <ClInclude Include="bst.h" />
     <ClInclude Include="quicksort.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

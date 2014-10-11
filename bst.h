@@ -30,5 +30,4 @@ Node* Delete(Node* root, int key)
         return NULL;
 
     if(pToDel->left==NULL)
-
 }
