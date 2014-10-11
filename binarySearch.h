@@ -120,4 +120,3 @@ int binarySearchInRotatedArray(int A[], int n, int x)
 
     return -1;
 }
-
