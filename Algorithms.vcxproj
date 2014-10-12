@@ -96,9 +96,12 @@
   <ItemGroup>
     <ClInclude Include="binarySearch.h" />
     <ClInclude Include="binarytree.h" />
-    <ClInclude Include="CountingSort.h" />
+    <ClInclude Include="CountingSort\CountingSort.h" />
     <ClInclude Include="heap.h" />
     <ClInclude Include="linkedlist.h" />
+    <ClInclude Include="MiddleElement\MiddleElement.h" />
+    <ClInclude Include="OrderStatistics\OrderStatistics.h" />
+    <ClInclude Include="RadixSort\RadixSort.h" />
     <ClInclude Include="tree_defs.h" />
     <ClInclude Include="bintree_search.h" />
     <ClInclude Include="bst.h" />

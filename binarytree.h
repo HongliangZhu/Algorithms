@@ -122,11 +122,40 @@ void PostOrderTraversal2(Node* root)
 
 void PostorderTraverser2(Node* root)
 {
-    
+    if(root==nullptr) return;
+
+    std::stack<Node*> stack;
     Node* node = root;
     Node* lastprinted = nullptr;
 
-
+    while(!stack.empty() || node)
+    {
+        if(node==lastprinted && node==stack.top()->right)
+        {
+            lastprinted = node = stack.top();
+            std::cout<<node->data<<" ";
+            stack.pop();
+        }
+        else if(node)
+        {
+            if(node->right)
+            {
+                node = node->right;
+                stack.push(node);
+            }
+            if(node->left)
+            {
+                node = node->left;
+                stack.push(node);
+            }
+        }
+        else//node==null, arrived at leaf
+        {
+            lastprinted = node = stack.top();
+            std::cout<<node->data<<" ";
+            stack.pop();
+        }
+    }
 
 
 }

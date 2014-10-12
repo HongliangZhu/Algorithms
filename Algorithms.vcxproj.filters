@@ -19,6 +19,12 @@
     <Filter Include="CountingSort">
       <UniqueIdentifier>{9edb4d85-f04c-4bfb-9869-b65e2aa5ce4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="RadixSort">
+      <UniqueIdentifier>{24eda44f-db30-4a57-9510-2a1cf4bc8828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OrderStatistics">
+      <UniqueIdentifier>{2e679739-2b9a-417b-9cc3-092a89b01a49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bintree_search.cpp">
@@ -54,8 +60,15 @@
     <ClInclude Include="heap.h">
       <Filter>Heap</Filter>
     </ClInclude>
-    <ClInclude Include="CountingSort.h">
+    <ClInclude Include="RadixSort\RadixSort.h">
+      <Filter>RadixSort</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingSort\CountingSort.h">
       <Filter>CountingSort</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleElement\MiddleElement.h" />
+    <ClInclude Include="OrderStatistics\OrderStatistics.h">
+      <Filter>OrderStatistics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
