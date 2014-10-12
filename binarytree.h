@@ -119,3 +119,14 @@ void PostOrderTraversal2(Node* root)
         }
     }
 }
+
+void PostorderTraverser2(Node* root)
+{
+    
+    Node* node = root;
+    Node* lastprinted = nullptr;
+
+
+
+
+}
