@@ -1,9 +1,16 @@
 Computer Algorithms Implementation In C++
 ==============
-
-Quick sort
-------------
-**The most important point of quick sort is partition function.**
+This repository include following programs:
+--------------------------------------------
+1. Binary Search
+2. Binary Tree
+3. CountingSort - the O(N) time complexity sort.
+4. Heap and priority queue related operation.
+5. Single Linked list and double linked list operations.
+6. Order statistics such as find the min/max number, the k-th number in a collection.
+7. Quick sort
+8. Radix sort
+9. RedBlackTree
 
 
 Github setup issues
