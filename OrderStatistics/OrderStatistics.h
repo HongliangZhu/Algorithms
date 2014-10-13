@@ -70,6 +70,7 @@ int RandomizedPartition(int* A, int n)
         }
     }
 
+    Swap(A, storedIndex, n-1);
     return storedIndex;
 }
 
@@ -78,5 +79,7 @@ int FindKthElement(int* A, int n, int k)
     if(n==1) return 0;
 
     int p = RandomizedPartition(A, n);
-    if(p==k) return p;
+    if(k==p) return p;
+    if(k<p)  return FindKthElement(A, p, k);
+    else     return k + FindKthElement(A+p, n-p, k-p);
 }
