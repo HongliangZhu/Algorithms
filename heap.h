@@ -3,8 +3,8 @@
 void HeapElementSwap(int A[], int i, int j)
 {
     int temp = A[i];
-    A[i-1] = A[j];
-    A[j-1] = temp;
+    A[i] = A[j];
+    A[j] = temp;
 }
 
 
