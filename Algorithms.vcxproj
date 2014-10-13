@@ -98,7 +98,7 @@
     <ClInclude Include="binarytree.h" />
     <ClInclude Include="CountingSort\CountingSort.h" />
     <ClInclude Include="heap.h" />
-    <ClInclude Include="linkedlist.h" />
+    <ClInclude Include="LinkedList\linkedlist.h" />
     <ClInclude Include="MiddleElement\MiddleElement.h" />
     <ClInclude Include="OrderStatistics\OrderStatistics.h" />
     <ClInclude Include="RadixSort\RadixSort.h" />

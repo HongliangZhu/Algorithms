@@ -36,9 +36,6 @@
     <ClCompile Include="Algorithms.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="linkedlist.h">
-      <Filter>LinkedList</Filter>
-    </ClInclude>
     <ClInclude Include="bst.h">
       <Filter>BinaryTree</Filter>
     </ClInclude>
@@ -69,6 +66,9 @@
     <ClInclude Include="MiddleElement\MiddleElement.h" />
     <ClInclude Include="OrderStatistics\OrderStatistics.h">
       <Filter>OrderStatistics</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList\linkedlist.h">
+      <Filter>LinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
