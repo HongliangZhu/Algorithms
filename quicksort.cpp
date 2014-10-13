@@ -31,6 +31,7 @@ int qsortPartition(int* s, int len)
         }
     }
 
+    qsortSwap(s, storedIndex, len-1);
     return storedIndex;
 }
 
